@@ -1,1 +1,1 @@
-# Monitorovanie naplnenia nádoby- pomocou merania vzdialenosti
+# Senzor vzdialenosti (parkovací senzor, naplnenie a vyprázdnenie nádoby)
