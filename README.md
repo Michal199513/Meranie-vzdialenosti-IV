@@ -1,1 +1,1 @@
-# Senzor vzdialenosti (parkovací senzor, naplnenie a vyprázdnenie nádoby)
+# Senzor vzdialenosti (naplnenie a vyprázdnenie nádoby napr. zásobník peliet)
