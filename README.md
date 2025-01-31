@@ -1,1 +1,1 @@
-# Senzor vzdialenosti (naplnenie a vyprázdnenie nádoby napr. zásobník peliet, zálohomat, automatická závlaha)
+# Senzor vzdialenosti (senzor vyprázdnenia nádoby napr. zásobník peliet)
