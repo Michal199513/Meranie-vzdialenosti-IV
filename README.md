@@ -1,1 +1,8 @@
 # Senzor vzdialenosti s ESP 32 alebo inteligentné monitorovanie vyprázdnenia nádoby
+Cieľom projektu je ukázať, akým spôsobom dokáže ultrazvukový snímač monitorovať vzdialenosť a kde v bežnom živote môžeme takéto zapojenie využiť. Súčasťou projektu je aj ukážka konkrétneho využitia v bežnom živote pre zásobník peliet na elektrický kotol.
+
+Zapojenie využíva ultrazvukový snímač vzdialenosti HC-SR04, ktorý môže byť namontovaný napríklad na veku nádoby. Tento senzor sa pozerá na obsah nádoby. Nepretržite meria vzdialenosť medzi krytom nádoby a daným obsahom. Keď sa začne postupne míňať a následne bude klesať, vzdialenosť od veka sa zvýši. Postupným rozsvecovaním jednotlivých LED diód (najkratšia vzdialenosť svieti jedna zelená dióda, pri najväčšej svietia všetky spolu so zvukovým signálom), nám zriadenie dáva znamenie o vyprázdnení nádoby. Samotná aplikácia pre konkrétny zásobník či nádobu, musí byť prispôsobená na danú veľkosť použitej nádoby a použitý obsah v nej. 
+Zapojenie a jednotlivé zariadenia môžeme testovať a pozorovať po pripojení dosky k Arduino IDE prostrediu cez USB kábel. Meranú vzdialenosť môžeme vidieť na Serial Monitore aj s následnou vizuálnou a zvukovou identifikáciou pomocou jednotlivých LED spolu s generátorom zvuku, ktoré sa riadia podmienkami nastavenými v zdrojovom kóde programu.
+Pre ukážku konkrétnej aplikácie uvádzam odkaz na webovú stránku a video, kde bol tento projekt použitý práve na Monitorovanie zásobníka peliet pre elektrický kotol spolu s prepojením na  ECO HOME domáceho asistenta. Odkaz dostupný tu: https://www.tastethecode.com/making-a-pellet-level-monitor-with-hc-sr04-and-esp8266 ale aj priamo na Youtube: 
+https://www.youtube.com/watch?v=yUSwj1SOXVQ&t=1s
+
