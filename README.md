@@ -7,20 +7,21 @@ Pre ukážku konkrétnej aplikácie uvádzam odkaz na webovú stránku a video, 
 https://www.youtube.com/watch?v=yUSwj1SOXVQ&t=1s
 
 Hardvérové vybavenie a elektronické súčiastky
-•	Mikrokontrolér ESP32 – WROOM- DA – Module, čip ESP32-D0WD-V3
+•	Mikrokontrolér ESP32 – WROOM- 32U
 •	Ultrazvukový senzor HC-SR04
 •	Farebné LED (červená, žltá, zelená 3ks)
 •	Rezistor s odporom 220 Ohmov pre každú LED
 •	Generátor zvuku: aktívny piezoelektrický bzučiak (active buzzer) pre alarm alebo signalizáciu, pri napájaní buzzer pípa frekvenciou približne 2300 Hz
 •	USB kábel, prepojovacie káble, BreadBoard
 
-Mikrokontrolér ESP32 – WROOM- DA – Module, čip ESP32-D0WD-V3
-Zariadenie je riadené ESP32 - WROOM – DA – Module čip ESP32-D0WD-V3.  Ide o malú a funkčnú vývojovú dosku, ktorú je možné naprogramovať pomocou Arduino IDE, ako aj ESPHome pre neskoršie použitie s Home Assistant. Táto doska je vybavená:
-•	32-bitovým dvojjadrovým procesorom Xtensa® LX6.
+Mikrokontrolér ESP32 – WROOM- 32U
+Zariadenie je riadené ESP32 - WROOM – 32U.  Ide o malú a funkčnú vývojovú dosku, ktorú je možné naprogramovať pomocou Arduino IDE, ako aj ESPHome pre neskoršie použitie s Home Assistant. Táto doska je vybavená:
+•	32-bitovým dvojjadrovým procesorom Xtensa® LX6
 •	Maximálnou frekvenciou 240 MHz
 •	SRAM s veľkosťou 520 kB 
-•	ROM s veľkosťou 448 kB
+•	ROM s veľkosťou 4MB
 •	16 KB SRAM v RTC
+•	Frekvencia 40MHz
 •	2.4 GHz Wi-Fi + Bluetooth® + Bluetooth LE module Built around ESP32 series of SoCs
 
 Ultrazvukový senzor HC-SR04
